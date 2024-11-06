@@ -1,0 +1,6 @@
+from FUNCTIONS import types_of_Function_definition as tf
+res=tf.login_credentials1(1122334455,"asha@123")
+print(res)
+tf.login_credentials2(112233,"asha@123")
+tf.system_info()
+tf.system_info1()
