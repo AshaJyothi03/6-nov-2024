@@ -1,0 +1,34 @@
+
+def login_credentials1(uid,pwd):
+    print("A function with arguments and with return type\n")
+    ruid=1122334455
+    rpwd="asha@123"
+    if ruid==uid and rpwd==pwd:
+        return "login successfully"
+    else:
+        return "wrong credentials"
+
+
+
+def login_credentials2(uid,pwd):
+    print("\nA function with arguments and without return type\n")
+    ruid=112233
+    rpwd="asha@123"
+    if ruid==uid and rpwd==pwd:
+        print("login successfully")
+    else:
+        print("wrong credentials")
+
+
+def system_info():
+    print("\nA function without arguments and with return type\n")
+
+    return "System Processor: i7"
+
+
+
+def system_info1():
+    print("\nA function without arguments and without return type\n")
+    print("System processor:i7 \n"
+          "system ssd:512 GB\n"
+          "System OS:windows11")
